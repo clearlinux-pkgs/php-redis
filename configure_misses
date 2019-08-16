@@ -4,5 +4,6 @@ Configure miss: if compiler supports -R
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: whether to enable igbinary serializer support
+Configure miss: whether to enable msgpack serializer support
 Configure miss: whether to enable lzf compression
 Configure miss: use system liblzf
