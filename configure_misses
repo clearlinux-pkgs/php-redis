@@ -7,3 +7,4 @@ Configure miss: whether to enable igbinary serializer support
 Configure miss: whether to enable msgpack serializer support
 Configure miss: whether to enable lzf compression
 Configure miss: use system liblzf
+Configure miss: whether to enable Zstd compression
