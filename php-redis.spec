@@ -4,10 +4,10 @@
 #
 Name     : php-redis
 Version  : 5.1.1
-Release  : 5
+Release  : 6
 URL      : https://pecl.php.net/get/redis-5.1.1.tgz
 Source0  : https://pecl.php.net/get/redis-5.1.1.tgz
-Summary  : An API for communicating with the Redis key-value store
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause PHP-3.01
 Requires: php-redis-lib = %{version}-%{release}
@@ -30,6 +30,7 @@ lib components for the php-redis package.
 
 %prep
 %setup -q -n redis-5.1.1
+cd %{_builddir}/redis-5.1.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -48,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/redis.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/redis.so
