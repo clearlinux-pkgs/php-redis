@@ -4,7 +4,7 @@
 #
 Name     : php-redis
 Version  : 5.1.1
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net/get/redis-5.1.1.tgz
 Source0  : https://pecl.php.net/get/redis-5.1.1.tgz
 Summary  : An API for communicating with the Redis key-value store
