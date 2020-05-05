@@ -4,7 +4,7 @@
 #
 Name     : php-redis
 Version  : 5.2.2
-Release  : 11
+Release  : 12
 URL      : https://pecl.php.net/get/redis-5.2.2.tgz
 Source0  : https://pecl.php.net/get/redis-5.2.2.tgz
 Summary  : No detailed summary available
