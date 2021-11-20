@@ -4,7 +4,7 @@
 #
 Name     : php-redis
 Version  : 5.3.4
-Release  : 21
+Release  : 22
 URL      : https://pecl.php.net/get/redis-5.3.4.tgz
 Source0  : https://pecl.php.net/get/redis-5.3.4.tgz
 Summary  : No detailed summary available
@@ -37,8 +37,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 phpize
-autoupdate
-%configure
+%configure --disable-static
 make  %{?_smp_mflags}
 
 %install
