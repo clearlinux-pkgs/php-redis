@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-redis
-Version  : 6.0.0
-Release  : 57
-URL      : https://pecl.php.net/get/redis-6.0.0.tgz
-Source0  : https://pecl.php.net/get/redis-6.0.0.tgz
+Version  : 6.0.1
+Release  : 58
+URL      : https://pecl.php.net/get/redis-6.0.1.tgz
+Source0  : https://pecl.php.net/get/redis-6.0.1.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause PHP-3.01
@@ -43,10 +43,10 @@ license components for the php-redis package.
 
 
 %prep
-%setup -q -n redis-6.0.0
-cd %{_builddir}/redis-6.0.0
+%setup -q -n redis-6.0.1
+cd %{_builddir}/redis-6.0.1
 pushd ..
-cp -a redis-6.0.0 buildavx2
+cp -a redis-6.0.1 buildavx2
 popd
 
 %build
