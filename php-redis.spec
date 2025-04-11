@@ -7,7 +7,7 @@
 #
 Name     : php-redis
 Version  : 6.2.0
-Release  : 93
+Release  : 94
 URL      : https://pecl.php.net/get/redis-6.2.0.tgz
 Source0  : https://pecl.php.net/get/redis-6.2.0.tgz
 Summary  : No detailed summary available
